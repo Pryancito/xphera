@@ -622,7 +622,6 @@ ROUTINE(ext_swap) {
   return 0;
 }
 
-
 RoutTableEntry ExtRoutTable[] = {
  { &ext_fanout,FANOUTID },
  { &ext_swap,SWAPID },

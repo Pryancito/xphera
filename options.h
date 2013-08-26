@@ -24,8 +24,8 @@ warranty of merchantability or fitness for any particular purpose.
 #include "types.h"
 #include "format.h"
 
-#define VERSION    "QCL version 0.6.3"
-#define COPYRIGHT  "(c) by Bernhard Oemer, 1998-2006"
+#define VERSION    "QCL version 0.6.3 | XPhera version 1.0-alpha"
+#define COPYRIGHT  "(c) by Bernhard Oemer, 1998-2006 | 2013 Pryan"
 #define DISCLAIMER "This program is free software under the terms of the GPL"
 
 #define QUOTE(x) #x

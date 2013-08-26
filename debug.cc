@@ -116,7 +116,7 @@ int qclshell(SymTable *loc,SymTable *gl,QuHeap *qh,sObject *obj,int cond) {
     qclmessage("user interrupt in "+obj->defstr());
     qcloutput(loc->prtstr(1));
   }
-  prompt="qcl";
+  prompt="xphera";
   if(shell_depth>=1) prompt+=(char)('0'+shell_depth);
   prompt+=cond==DB_ERROR ? "$ " : "> ";
     

@@ -19,6 +19,7 @@ warranty of merchantability or fitness for any particular purpose.
 #pragma interface
 
 #include "types.h"
+#include <vector>
 
 /*
 class QuBaseState : public quBaseState {
@@ -29,7 +30,7 @@ public:
 
 struct RoutTableEntry {
   tExtRout *rout;
-  char *id;
+  std::string id;
 };
 
 extern RoutTableEntry ExtRoutTable[];
