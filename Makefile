@@ -143,7 +143,7 @@ edit:
 	nedit $(SOURCE) &
 
 clean:
-	rm -f *.o lex.* yacc.* 
+	rm -f *.o lex.* yacc.* xphera 
 	cd $(QCDIR) && $(MAKE) clean
 
 clear: clean
