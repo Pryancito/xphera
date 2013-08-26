@@ -129,11 +129,11 @@ checkinst:
 
 install: checkinst
 	$(INSTALL) -m 0755 -d $(QCLBIN) $(QCLDIR)
-	$(INSTALL) -m 0755 ./qcl $(QCLBIN)
+	$(INSTALL) -m 0755 ./xphera $(QCLBIN)
 	$(INSTALL) -m 0644 ./$(QCLINC)/*.qcl $(QCLDIR)
 
 uninstall:
-	-rm -f $(QCLBIN)/qcl
+	-rm -f $(QCLBIN)/xphera
 	-rm -f $(QCLDIR)/*.qcl
 	-rmdir $(QCLDIR)
 
